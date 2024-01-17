@@ -1,0 +1,76 @@
+.navbar-nav .nav-link.active{
+    color:  aliceblue;
+}
+
+.nav-link{
+    text-align: center;
+    color: aliceblue;
+}
+
+.back {
+    background-color: #fff;
+}
+
+.op {
+    padding-bottom: 50px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: rgb(43, 37, 70);
+    z-index: 2;
+    color: aliceblue;
+}
+
+.head-fist{
+    height: 24px;
+    margin-right: 12px;
+    padding-left: 10px;
+}
+
+.d-flex > h2 {
+    padding-bottom: 20px;
+    margin-top: 20px ;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    color: rgb(43, 37, 70);
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.674);
+}
+
+
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    #resp .col-md-4 {
+        flex: 0 0 48%;
+        max-width: 48%;
+        margin-bottom: 10px;
+    }
+
+    .container {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .container {
+        font-size: 1em;
+    }
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(43, 37, 70);
+    color: aliceblue;
+}
+
+footer p{
+    margin-bottom: 0;
+}
